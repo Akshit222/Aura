@@ -1,4 +1,4 @@
-# Aura
+# Aura+
 A Mental Health Platform for physically diabled which
 used an AI Chatbot to converse with the user and then
 run the conversation log through an LLM model and the
