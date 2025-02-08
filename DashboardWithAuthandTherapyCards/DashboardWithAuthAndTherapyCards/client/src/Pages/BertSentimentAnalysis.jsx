@@ -26,7 +26,7 @@ const BertSentimentAnalysis = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "http://localhost:3000/api/analyzeConversation",
+          "http://localhost:4002/api/analyzeConversation",
           {
             credentials: "include",
             headers: {
