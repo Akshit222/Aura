@@ -740,7 +740,7 @@ const Dashboard = () => {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  onClick={handleLogin}
+                  onClick={() => window.location.href = "http://localhost:6004/"}
                   className="px-6 py-2 rounded-xl bg-gradient-to-r from-purple-500 to-indigo-500 
                     text-white font-medium shadow-lg hover:shadow-xl transition-shadow"
                 >
